@@ -51,6 +51,7 @@ const buttonClicked = (e) => {
     if (e.target.classList.contains('btn')) {
         const dataId = e.target.getAttribute('data-id')
         console.log(db[Number(dataId) - 1])
+        console.log("lol")
     }
 }
 
